@@ -211,7 +211,7 @@ src/
 ## ⭐ 화면 구성
 
 ### 랜딩페이지
-<img src="./docs/assets/images/랜딩.png" alt="랜딩페이지" width="70%"/>
+<img src="./docs/assets/images/랜딩.gif" alt="랜딩페이지" width="70%"/>
 
 ### 프로필
 - 개인 갤러리 및 다시보기 영상 관리
@@ -235,11 +235,6 @@ src/
 - 올해의 특별 연월일식 일정 조회  
 <img src="./docs/assets/images/은하달력관.png" alt="일정" width="70%"/>
 
-[![프로젝트 시연 영상](thumbnail.png)](https://github.com/woodaekki/StellarVision/blob/master/docs/assets/stellavision.mp4
-)
 
-<video controls>
-  <source src="https://raw.githubusercontent.com/woodaekki/StellarVision/master/docs/assets/stellavision.mp4" type="video/mp4">
-</video>
 
 
