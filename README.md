@@ -235,4 +235,11 @@ src/
 - 올해의 특별 연월일식 일정 조회  
 <img src="./docs/assets/images/은하달력관.png" alt="일정" width="70%"/>
 
+[![프로젝트 시연 영상](thumbnail.png)](https://github.com/woodaekki/StellarVision/blob/master/docs/assets/stellavision.mp4
+)
+
+<video controls>
+  <source src="https://raw.githubusercontent.com/woodaekki/StellarVision/master/docs/assets/stellavision.mp4" type="video/mp4">
+</video>
+
 
