@@ -71,7 +71,7 @@
 ## ⭐ 아키텍처
 <img src="./docs/assets/images/아키텍처.jpg" alt="아키텍처" width="70%"/>
 
-## 💛 프로젝트 산출물
+## ⭐ 프로젝트 산출물
 
 - [기능명세서](./docs/기능명세서.md)
 - [API명세서](./docs/API명세서.md)
@@ -214,27 +214,45 @@ src/
 <img src="./docs/assets/images/랜딩.gif" alt="랜딩페이지" width="70%"/>
 
 ### 프로필
-- 개인 갤러리 및 다시보기 영상 관리
-- 뱃지 도감 컬렉팅 및 전시 관리
-- 별자리 도감 획득 및 조회  
+  - 은하 사진관
+    - 사진 업로드 시 AI 별자리 태깅
+    - 새로운 별자리 발견 시 뱃지 획득 기능
+<img src="./docs/assets/images/은하사진관.gif" alt="갤러리" width="70%"/>
+<br/>
 
+  - 은하 수집관
+    - 획득한 별자리 도감 조회 기능
+<img src="./docs/assets/images/은하수집관.png" alt="도감" width="70%"/>
+<br/>
 
-<img src="./docs/assets/images/은하사진관.png" alt="갤러리" width="70%"/>
+  - 은하 영상관
+    - 스트리밍 녹화 종료 후 자동 저장 및 AI 별자리 태깅
+    - 별자리 태그에 따른 썸네일 설정
+    - 수동 태그 추가 및 삭제 기능
+<br/>
+<img src="./docs/assets/images/은하영상관.gif" alt="다시보기" width="70%"/>
+<br/>
 
-<img src="./docs/assets/images/은하영상관.png" alt="다시보기" width="70%"/>
-
-<img src="./docs/assets/images/은하마음관.png" alt="도감" width="70%"/>
-
-### 스트리밍
-<img src="./docs/assets/images/녹화.png" alt="채팅" width="70%"/>
+  - 은하 마음관
+    - 사용자의 좋아요 목록 조회 및 관리
+<img src="./docs/assets/images/은하마음관.gif" alt="좋아요" width="70%"/>
+<br/>
 
 ### 은하 천체관
+  - 오늘의 천체 사진 조회 기능
+<br/>
 <img src="./docs/assets/images/은하천체관.png" alt="천체" width="70%"/>
+<br/>
 
 ### 은하 달력관
 - 올해의 특별 연월일식 일정 조회  
 <img src="./docs/assets/images/은하달력관.png" alt="일정" width="70%"/>
+<br/>
 
+### 스트리밍
+  - 실시간 별자리 스트리밍 및 AI 별자리 탐지 토글
+  - 실시간 채팅 기능
+  - 캡쳐 시 자동 업스케일링 및 다운로드 기능
 
-
-
+<br/>
+[시연 영상 보기](https://youtu.be/cChNDY36zZ4)
