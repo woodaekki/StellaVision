@@ -142,9 +142,9 @@ src/
 ---
 
 ## 팀원 소개
-| ![방준엽](./docs/assets/images/방준엽.png) | ![구인완](./docs/assets/images/구인완.png) | ![양정현](./docs/assets/images/양정현.png) | ![김선우](./docs/assets/images/김선우.png) | ![임정원](./docs/assets/images/임정원.png) | ![신성규](./docs/assets/images/신성규.png) |
-|------------------------------------------|------------------------------------------|------------------------------------------|------------------------------------------|------------------------------------------|------------------------------------------|
-| Back End | Back End | AI | Front End | Front End | Front End |
+| <div align="center"><img src="./docs/assets/images/방준엽.png" width="100"><br>방준엽<br>Back End</div> | <div align="center"><img src="./docs/assets/images/구인완.png" width="100"><br>구인완<br>Back End</div> | <div align="center"><img src="./docs/assets/images/양정현.png" width="100"><br>양정현<br>AI</div> | <div align="center"><img src="./docs/assets/images/김선우.png" width="100"><br>김선우<br>Front End</div> | <div align="center"><img src="./docs/assets/images/임정원.png" width="100"><br>임정원<br>Front End</div> | <div align="center"><img src="./docs/assets/images/신성규.png" width="100"><br>신성규<br>Front End</div> |
+|:---------------------------------------:|:---------------------------------------:|:---------------------------------------:|:---------------------------------------:|:---------------------------------------:|:---------------------------------------:|
+
 
 ---
 
@@ -182,9 +182,9 @@ src/
 
 ### 스트리밍
 - 실시간 별자리 탐지 및 채팅 지원  
-- 캡처 업스케일링 다운로드 제공  
+- 캡쳐 업스케일링 다운로드 제공  
 
 ---
 
 ## 시연 영상
-👉 [유튜브에서 시청하기](https://youtu.be/cChNDY36zZ4)
+👉 [시청하기](https://youtu.be/cChNDY36zZ4)
