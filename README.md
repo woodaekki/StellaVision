@@ -1,7 +1,7 @@
 # StellarVision
 
 <p align="center">
-  <img src="./docs/assets/images/Thumbnail.png" alt="썸네일" width="50%"/>
+  <img src="./docs/assets/images/Thumbnail.png" alt="썸네일" width="60%" height="50%"/>
 </p>
 
 ---
@@ -89,55 +89,119 @@ StellarVision과 함께라면, 밤하늘을 더 정확하고 편리하게 즐길
 
 ## 폴더 구조
 
-### Backend
+### Back-end
 <details>
 <summary>펼쳐보기</summary>
 
-```plaintext
-StellarVision
- ├── java
- │   └── com
- │       └── ssafy
- │           └── kidslink
- │               ├── application
- │               │   ├── auth
- │               │   ├── collection
- │               │   ├── follow
- │               │   ├── member
- │               │   ├── photo
- │               │   ├── profile
- │               │   ├── streaming
- │               │   └── video
- │               ├── common
- │               └── config
- └── entity
-```
+```plantext
+StellarVision.
+  ├───java
+  │   └───com
+  │   └───susang
+  │   └───stellaVision
+  │   ├───application
+  │   │   ├───auth
+  │   │   │    ├───email
+  │   │   │    jwt
+  │   │   ├───collection
+  │   │   │    ├───controller
+  │   │   │    ├───error
+  │   │   │    ├───dto
+  │   │   │    ├───repository
+  │   │   │    └───service
+  │   │   ├───follow
+  │   │   │    ├───controller
+  │   │   │    ├───exception
+  │   │   │    ├───dto
+  │   │   │    ├───repository
+  │   │   │    └───service
+  │   │   ├───member
+  │   │   │    ├───controller
+  │   │   │    ├───exception
+  │   │   │    ├───dto
+  │   │   │    ├───repository
+  │   │   │    └───service
+  │   │   ├───photo
+  │   │   │    ├───controller
+  │   │   │    ├───dto
+  │   │   │    ├───error
+  │   │   │    ├───repository
+  │   │   │    └───service
+  │   │   ├───profile
+  │   │   │    ├───controller
+  │   │   │    ├───dto
+  │   │   │    ├───error
+  │   │   │    └───service
+  │   │   ├───streaming
+  │   │   │    ├───controller
+  │   │   │    ├───dto
+  │   │   │    ├───exception
+  │   │   │    ├───repository
+  │   │   │    └───service
+  │   │   └───video
+  │   │        ├───controller
+  │   │        ├───error
+  │   │        ├───dto
+  │   │        ├───repository
+  │   │        └───service
+  │   ├───common
+  │   │   ├───constants
+  │   │   ├───dto
+  │   │   ├───exception
+  │   │   ├───redis
+  │   │   ├───s3
+  │   │   ├───security
+  │   │   └───utils
+  │   └───config
+  └───entity
+  ```
 </details>
 
-### Frontend
+### Front-end
 <details>
 <summary>펼쳐보기</summary>
 
-```plaintext
-StellarVision
+```plantext
+StellarVision.
 src/
-├─ App.vue
-├─ main.js
-├─ api/
-├─ assets/
-├─ components/
-├─ composables/
-├─ constants/
-├─ data/
-├─ router/
-├─ services/
-├─ stores/
-└─ views/
+├─ App.vue             # 메인 Vue 컴포넌트
+├─ main.js             # 진입점
+├─ api/                # 서버 통신 모듈
+│   ├─ axiosApi.js
+│   ├─ calenderApi.js
+│   ├─ commonApi.js
+│   ├─ streamingApi.js
+│   └─ todayPhotoApi.js
+├─ assets/             # 스타일, 폰트, 이미지
+│   ├─ base.css
+│   ├─ components.scss
+│   ├─ layout.scss
+│   ├─ main.css
+│   ├─ font/
+│   └─ pictures/
+├─ components/         # 재사용 UI 컴포넌트
+│   ├─ auth/           # 로그인 관련
+│   ├─ badge/          # 뱃지 관련
+│   ├─ comment/        # 채팅/댓글
+│   ├─ common/         # 공통 UI
+│   ├─ landing/        # 랜딩 페이지
+│   ├─ main/           # 메인 페이지
+│   ├─ streaming/      # 스트리밍 관련
+│   └─ video/          # 영상 관련
+├─ composables/        # 재사용 Composition API
+├─ constants/          # 상수 정의
+├─ data/               # 초기/더미 데이터
+├─ router/             # Vue Router 설정
+├─ services/           # 비즈니스 로직
+├─ stores/             # 상태 관리 (Pinia/Vuex)
+└─ views/              # 페이지 단위 컴포넌트
 
-.env
-.gitignore
+.env                   # 환경 변수
+.gitignore             # Git 무시 파일
 ```
 </details>
+
+<br/>
 
 ---
 
