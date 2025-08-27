@@ -1,11 +1,4 @@
-# StellarVision
-
-<p align="center">
-  <img src="./docs/assets/images/Thumbnail.png" alt="썸네일" width="60%" height="50%"/>
-</p>
-
----
-
+# StellaVision
 ## 프로젝트 소개
 밤하늘의 별을 집에서 편하게 보면서, 그 별자리의 이름까지 알 수 있다면 얼마나 좋을까요?  
 
