@@ -47,7 +47,7 @@ StellarVision과 함께 밤하늘을 더 정확하고 편리하게 즐겨보세�
 ## 기술 스택
 
 ### Backend
-- Spring Boot (REST API, WebSocket)
+- Spring Boot (FAST API)
 - MySQL
 - OpenVidu (실시간 스트리밍)
 - Jenkins, Docker, Nginx, S3 (배포)
@@ -55,7 +55,6 @@ StellarVision과 함께 밤하늘을 더 정확하고 편리하게 즐겨보세�
 ### Frontend
 - Vue 3 (SPA)
 - Tailwind CSS
-- WebRTC
 
 ### AI & Image
 - Astrometry (별자리 라벨링)
