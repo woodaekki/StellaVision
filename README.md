@@ -1,5 +1,6 @@
 # StellarVision
 🏆 SSAFY 13기 공통 프로젝트 - StellarVision: 사람과 하늘을 잇는 천체 스트리밍 별자리 태깅 서비스
+
 ---
 
 ## 프로젝트 소개
